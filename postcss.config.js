@@ -1,0 +1,10 @@
+﻿module.exports = {
+    plugins: {
+        "postcss-import": {},
+        "postcss-nested": {},
+        "postcss-preset-env": {
+            browsers: ["> 0%"],
+            preserve: false,
+        },
+    },
+};
